@@ -1,0 +1,108 @@
+.header {
+    background-color: dodgerblue;
+    border-radius: 10px;
+}
+
+.header h1 {
+    color: white;
+    margin: 20px;
+    padding-top: 20px;
+}
+
+#mytext-2 {
+    color: darkblue;
+    font-weight: bold;
+    margin: 20px;
+}
+
+#mytext-3 {
+    color: white;
+    margin: 20px;
+}
+
+ul {
+    display: flex;
+    list-style: none; /* bỏ dấu chấm mặc định */
+    padding: 0;
+}
+
+ul li {
+    display: inline-block;
+    margin: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.about {
+    font-weight: bold;
+}
+
+.HTML {
+    color: red; /* chữ màu đỏ */
+    font-size: 16px;
+    border-left: 3px solid orange; /* viền bên trái */
+    padding-left: 8px; /* khoảng cách giữa viền và chữ */
+    margin: 10px 0;
+    font-style: italic; /* chữ in nghiêng */
+    background-color: #fff6ea;
+}
+
+#mytext-4 {
+    font-weight: bold;
+}
+
+.grade {
+    color: red;
+}
+
+.submit-btn {
+    border: none;
+    color: white;
+    background-color: royalblue;
+    width: 70px;
+    height: 30px;
+    border-radius: 5px;
+}
+
+.paragraph {
+    color: red;
+}
+
+input {
+    width: 100%;             /* Chiếm 100% chiều rộng container */ /* Giới hạn tối đa */
+    padding: 10px;            /* Khoảng cách bên trong */
+    font-size: 16px;           /* Cỡ chữ hợp lý */
+    border: 1px solid #ccc;    /* Viền */
+    border-radius: 5px;        /* Bo góc */
+    box-sizing: border-box;    /* Tính cả padding và border trong width */
+}
+
+textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.send-btn {
+    border: none;
+    width: 100%;
+    padding: 10px 10px 10px 10px;
+    font-size: 16px;
+    background-color: green;
+    color: white;
+}
+
+.table {
+    width: 100%;
+    margin-top: 10px;
+}
+
+.row {
+    background-color: lightskyblue;
+}
